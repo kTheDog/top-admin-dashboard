@@ -1,0 +1,237 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+.super-wrapper {
+    display: grid;
+    grid-template-columns: minmax(150px, 1fr) 5fr;
+    height: 100%;
+}
+
+
+
+.dashboard {
+    display: grid;
+    grid-template-rows: repeat(3, max-content);
+    gap: 50px;
+    padding: 15px;
+    background-color: rgba(57, 68, 112, 0.941);
+    color: white;
+}
+
+
+
+
+
+ svg {
+    height: 1em;
+ }
+
+
+.db-second-grid > svg, 
+.db-first-grid > svg {
+    height: 1em;    
+}
+
+
+.db,
+.db-first-grid,
+.db-second-grid {
+    display: grid;
+    grid-template-columns: min-content auto;
+    grid-auto-rows: min-content;
+    align-content: start;
+    align-items: center;
+    gap: 10px;
+    height: fit-content;
+}
+
+
+.db > svg {
+    height: 2em;
+}
+.profile-bar {
+    padding: 20px 90px 20px 30px;
+
+}
+.search-bar > input {
+    width: 90%;
+    border-radius: 20px;
+    background-color: rgba(165, 180, 194, 0.322);
+    border: none;
+    height: 1.5em;
+}
+
+.search-row {
+    display: grid;
+    grid-template-columns: auto max-content;
+    padding-bottom: 10px;
+}
+.search-bar {
+    display: grid;
+    grid-template-columns: min-content auto;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.rest-icons {
+    display: grid;
+    grid-auto-flow: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.search-row svg {
+    height: 1.5em;
+}
+
+.bottom-row {
+    display: grid;
+    grid-template-columns: min-content auto max-content;
+    gap: 20px;
+    align-items: center;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  
+    gap: 20px;
+}
+
+.buttons > button {
+    background-color: rgb(48, 109, 170);
+    padding: 10px 30px;
+    border: none;
+    border-radius: 20px;
+    color: white;
+}
+
+.boxes {
+    background-color: rgb(218, 225, 235);
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    padding: 20px;
+    gap: 20px;
+    color: rgb(109, 109, 109);
+}
+
+.project-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+.project {
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    display: grid;
+    border-radius: 10px;
+    border-left: orange 5px solid;
+}
+.box-title {
+    font-size: 18px;
+    font-weight: bold;
+    padding-bottom: 10px;
+    color: black;
+}
+
+.project-title {
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+    padding-bottom: 5px ;
+}
+
+
+
+.project-buttons {
+    margin-top: 5px;
+    text-align: right;
+}
+
+.project-buttons > svg {
+    height: 1.5em;
+    padding: 15px 10px 5px 5px;
+    color: rgb(43, 43, 43);
+}
+.an-wrapper,
+.prof-wrapper,
+.project {
+    box-shadow: 1px 3px 8px 2px rgba(143, 143, 143, 0.549);
+}
+
+.profile-bar {
+    box-shadow: 8px 8px 8px 2px rgb(231, 0, 0);
+}
+
+.an-tr {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    gap: 50px;
+    height: 100%;
+}
+
+.an-title {
+
+    font-size: 16px;
+    font-weight: bold;
+
+    color: black;
+    padding-bottom: 5px ;
+}
+
+
+.an-wrapper {
+    background-color: white;
+    padding: 10px;
+    display: grid;
+    border-radius: 10px;
+    height: auto;
+}
+.statement {
+    padding: 10px;
+    font-size: 12px;
+}
+.statement.middle {
+    border-top: 1px solid rgb(179, 179, 179);
+    border-bottom: 1px solid rgb(179, 179, 179);
+
+}
+
+.prof-wrapper {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.announcements,
+.trending {
+    display: grid;
+    grid-template-rows: min-content auto;
+
+}
+
+.profile {
+    
+    display: grid;
+    grid-template-columns: min-content auto;
+    gap: 10px;
+    align-items: center;
+}
+
+.profile > svg {
+    height: 3em;
+}
+
+.address{
+    color: black;
+}
+
+.name {
+    font-size: 14px;
+}
